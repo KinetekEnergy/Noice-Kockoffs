@@ -1,0 +1,46 @@
+body {
+  background: #463F3A;
+}
+
+a, a:visited {
+  color: rgba(255, 105, 180, 0);
+}
+
+
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+  color: #F4F3EE;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 50px;
+  text-align: center;
+  color: #F4F3EE;
+  font-family: sans-serif;
+}
+
+.card-text {
+  font-size: 35px;
+  text-align: center;
+  color: #383838;
+  font-family: sans-serif;
+  margin-top: 5px;
+}
+
+.card-image {
+  width: 100%;
+}
+.card {
+  background: #DCDCDC;
+  width: 20%;
+  height: 20%;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  float: left;
+}
