@@ -1,10 +1,12 @@
 /* body and text stuff */
 body {
   background: #463F3A;
+  padding: 0px;
+  margin: 0px;
 }
 
 h1 {
-    font-size: 100px;
+  font-size: 100px;
   text-align: center;
   color: #F4F3EE;
   font-family: sans-serif;
@@ -27,12 +29,10 @@ h2 {
   width: 50%;
   padding: 10px;
   font-weight: bold;
-
   /* centers */
   margin-left: auto;
   margin-right: auto;
 }
-
 
 /* product cards stuff */
 .card-text {
@@ -58,7 +58,6 @@ h2 {
   background: white;
   width: 20%;
   height: 20%;
-
   /* Margin Stuffs + Floats */
   margin-top: 10px;
   margin-left: 10px;
@@ -67,14 +66,17 @@ h2 {
   float: left;
 }
 
-
 /* navbar stuff */
 .navbar {
-  list-style-type: none; /* removes the bullet point */
+  /* removes the bullet point */
+  list-style-type: none;
+  /* IDK what this does but it works for some reason so thats good */
+  overflow: hidden;
+  /* color */
+  background-color: black;
+  /* makes the bar stay at top of page and aligns links*/
   margin: 0px;
   padding: 0px;
-  overflow: hidden; /* IDK what this does but it works for some reason so thats good */
-  background-color: black;
   position: sticky;
   top: 0;
 }
@@ -93,8 +95,8 @@ h2 {
   text-decoration: none;
 }
 
-
 /* misc */
 a, a:visited {
-  color: rgba(0, 0, 0, 0); /* removes that ugly blue line */
+  color: rgba(0, 0, 0, 0);
+  /* removes that ugly blue line */
 }
